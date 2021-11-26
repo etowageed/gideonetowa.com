@@ -1,0 +1,20 @@
+{
+  "name": "gideonetowa.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/index.css -o ./public/tailwind.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/etowageed/gideonetowa.com.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/etowageed/gideonetowa.com/issues"
+  },
+  "homepage": "https://github.com/etowageed/gideonetowa.com#readme"
+}

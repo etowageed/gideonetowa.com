@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gideon Etowa - UX Designer & Frontend web developer</title>
+    <link rel="stylesheet" href="tailwind.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-body text-white font-lato">
+    <header>
+      <div
+        class="
+          flex
+          justify-between
+          py-8
+          bg-white bg-opacity-10
+          backdrop-filter backdrop-blur-lg
+          border-b border-gray-50 border-opacity-10
+          px-8
+          md:px-14
+          lg:px-24
+          w-full
+        "
+      >
+        <div class="logo">
+          <a href="#"><span class="font-bold">Gideon Etowa</span></a>
+        </div>
+        <div class="nav-links">
+          <ul class="nav hidden md:flex space-x-12">
+            <li><a class="" href="#">Home</a></li>
+            <li><a class="" href="#">Work</a></li>
+            <li><a class="" href="#">Case studies</a></li>
+            <li>
+              <a href="#" class="py-4 px-6 bg-primary-col font-bold rounded-xl"
+                >Hire me</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="md:hidden">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-7 w-7"
+            viewBox="0 0 20 20"
+            fill="currentColor"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z"
+              clip-rule="evenodd"
+            />
+          </svg>
+        </div>
+      </div>
+    </header>
+
+    <div
+      class="
+        hero-container
+        mt-16
+        flex flex-wrap
+        md:flex-nowrap
+        px-8
+        md:px-14
+        lg:px-44
+      "
+    >
+      <div class="hero-writeup mt-32 z-50">
+        <h1
+          class="
+            font-bold
+            text-5xl
+            md:text-6xl
+            lg:text-7xl
+            text-center
+            md:text-left
+            mb-20
+          "
+        >
+          Turning ideas <br />into beautiful web <br />
+          & mobile experiences.
+        </h1>
+
+        <div class="w-full flex justify-center md:justify-start">
+          <a
+            class="py-5 px-10 bg-primary-col font-bold rounded-xl inline-block"
+            href="#"
+            >My work</a
+          >
+        </div>
+      </div>
+
+      <img
+        src="/img/image.png"
+        alt="hero-img"
+        class="w-3/4 mx-auto mt-12 md:absolute md:mt-0 md:right-0 z-0"
+      />
+    </div>
+  </body>
+</html>
