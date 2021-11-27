@@ -14,6 +14,13 @@ module.exports = {
       fontFamily: {
         'lato': ["'lato'", 'sans-serif']
       },
+      width: {
+        '600px': '37.5rem',
+        '500px': '31.25rem',
+      },
+      height: {
+        '420px': '420px',
+      },
     },
   },
   variants: {

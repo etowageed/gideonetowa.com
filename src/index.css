@@ -9,3 +9,9 @@ body {
 .linkHover {
   @apply border-b-4 pb-2 border-primary-col;
 }
+
+.glassy {
+  @apply bg-white bg-opacity-10
+    backdrop-filter backdrop-blur-lg
+    border border-gray-100 border-opacity-10;
+}
