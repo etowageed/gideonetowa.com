@@ -3,6 +3,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      zIndex: {
+'100' : 100,
+      },
       colors: {
         'body': '#17171F',
         'dark-text': '#3d3d3d',
@@ -17,6 +20,8 @@ module.exports = {
       width: {
         '600px': '37.5rem',
         '500px': '31.25rem',
+        '48%': '48%',
+        '45%': '45%',
       },
       height: {
         '420px': '420px',

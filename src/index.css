@@ -15,3 +15,8 @@ body {
     backdrop-filter backdrop-blur-lg
     border border-gray-100 border-opacity-10;
 }
+.glassy-b {
+  @apply bg-white bg-opacity-10
+    backdrop-filter backdrop-blur-lg
+    border-b border-gray-100 border-opacity-10;
+}

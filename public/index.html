@@ -19,52 +19,21 @@
     ></script>
   </head>
   <body class="bg-body text-white font-lato">
-    <header>
-      <div
-        class="
-          flex
-          justify-between
-          py-8
-          bg-white bg-opacity-10
-          backdrop-filter backdrop-blur-lg
-          border-b border-gray-50 border-opacity-10
-          px-8
-          md:px-14
-          lg:px-24
-          w-full
-        "
-      >
-        <div class="logo">
-          <a href="#"><span class="font-bold">Gideon Etowa</span></a>
-        </div>
-        <div class="nav-links">
-          <ul class="nav hidden md:flex space-x-12">
-            <li><a  href="#">Home</a></li>
-            <li><a  href="#work">Work</a></li>
-            <li><a  href="#">Case studies</a></li>
-            <li>
-              <a href="#" class="py-4 px-6 bg-primary-col font-bold rounded-xl"
-                >Hire me</a
-              >
-            </li>
-          </ul>
-        </div>
-        <div class="md:hidden">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            class="h-7 w-7"
-            viewBox="0 0 20 20"
-            fill="currentColor"
-          >
-            <path
-              fill-rule="evenodd"
-              d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z"
-              clip-rule="evenodd"
-            />
-          </svg>
-        </div>
+    <header class="pt-0.5">
+      <div class=" flex justify-between items-center mx-auto py-3 px-8 md:px-14 lg:px-24 w-full fixed z-100 glassy-b">
+          <div class="text-lg font-bold">Gideon Etowa</div>
+          <div class="hidden md:flex space-x-12 items-center">
+              <a href="#">Home</a>
+              <a href="#">My work</a>
+              <a href="#">Clients</a>
+              <a href="#"><button class="px-6 py-2 bg-primary-col font-bold rounded-xl">Hire me</button></a>
+          </div>
+          <div class="md:hidden">
+              <svg  width="26" height="18" viewBox="0 0 26 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M13 17.5H0.25V14.6667H13V17.5ZM25.75 10.4167H0.25V7.58333H25.75V10.4167ZM25.75 3.33333H13V0.5H25.75V3.33333Z" fill="white"/></svg>
+          </div>
       </div>
-    </header>
+  </header>
+  
 
     <div
       class="
@@ -114,67 +83,121 @@
     >
     
       <div
-        class="about-section md:w-2/5 flex flex-col space-y-5 md:float-right mb-20 md:mb-40"
+        class="about-section space-y-10 mb-20 md:mb-40 md:float-right"
       >
-        <span class="opacity-50"> About Me </span>
+        
         <span>
-          I’m Gideon, a Product designer and Frontend Web developer and I’m
-          passionate about building beautiful yet functional products that users
+          <span class="opacity-50"> About Me </span><br><br>
+          I’m Gideon, a Product designer and Frontend Web developer. <br>I’m
+          passionate about building beautiful yet functional products that <br> users
           love and connect with.
           <hr class="h-2 bg-primary-col border-0 w-20 rounded mt-2" />
         </span>
-        <span class="space-x-10 text-primary-txt mt-10">
+        <div class="space-x-10 block md:space-x-12 text-primary-txt mt-10">
           <a href="https://wa.me/2348143091020" target="_blank"><i class="fa fa-whatsapp"></a></i>
           <a href="mailto:etowagideon@gmail.com" target="_blank"><i class="fas fa-envelope"></a></i>
           <a href="https://www.dribbble.com/etowageed" target="_blank"><i class="fa fa-dribbble"></a></i>
           <a href="https://www.linkedin.com/in/gideon-etowa-746b51156" target="_blank"><i class="fa fa-linkedin"></a></i>
           <a href="https://www.twitter.com/etowageed" target="_blank"><i class="fa fa-twitter"></a></i>
           <a href="https://www.github.com/etowageed" target="_blank"><i class="fa fa-github"></a></i>
-        </span>
+        </div>
       </div>
     
 
 
-    <div class="clear-both">
+    <div class="work container clear-both mb-16 md:my-40">
+
         <span id="work" class="opacity-50">Work</span>
         <div class="flex items-center mt-7 mb-7">
         <hr class="inline-block float-left h-2 bg-primary-col border-0 w-7 md:w-10 rounded transform rotate-90" />
         <span class="text-2xl md:text-4xl">A few of my projects</span>
         </div>
 
-        <div class="work-tiles flex justify-between flex-wrap">
-        <div class="flex justify-between flex-wrap md:flex-nowrap p-2.5 md:p-10 glassy rounded-3xl w-96 h-420px md:w-600px md:500px">
-            <div class="thumbnail">
+        <div class="flex flex-col lg:flex-row lg:flex-wrap gap-10 md:gap-7">
+            <div class="w-full lg:w-48% h-420px p-2.5 md:p-5 glassy rounded-3xl ">
+              <div class="thumbnail">
 
-            </div>
-            <div class="thumbnail-label">
+              </div>
+              <div class="thumbnail-label">
 
+              </div>
             </div>
-            
+
+            <div class="w-full lg:w-48% h-420px p-2.5 md:p-5 glassy rounded-3xl ">
+              <div class="thumbnail">
+
+              </div>
+              <div class="thumbnail-label">
+
+              </div>
+            </div>
+
+            <div class="w-full lg:w-48% h-420px p-2.5 md:p-5 glassy rounded-3xl ">
+              <div class="thumbnail">
+
+              </div>
+              <div class="thumbnail-label">
+
+              </div>
         </div>
 
-        <div class="flex justify-between flex-wrap md:flex-nowrap p-2.5 md:p-10 glassy rounded-3xl w-96 h-420px md:w-600px md:500px">
-            <div class="thumbnail">
+        <div class="w-full lg:w-48% h-420px p-2.5 md:p-5 glassy rounded-3xl ">
+          <div class="thumbnail">
 
-            </div>
-            <div class="thumbnail-label">
+          </div>
+          <div class="thumbnail-label">
 
-            </div>
-            
-        </div>
-
-        <div class="flex justify-between flex-wrap md:flex-nowrap p-2.5 md:p-10 glassy rounded-3xl w-96 h-420px md:w-600px md:500px">
-            <div class="thumbnail">
-
-            </div>
-            <div class="thumbnail-label">
-
-            </div>
-            
-        </div>
-
-        </div>
+          </div>
     </div>
+</div>
+        
+
+    <div class="contact mt-12">
+
+      <span id="contact" class="opacity-50">Contact me</span>
+      <h3 class="text-2xl md:text-4xl mt-7">You've got a project in mind?</h3>
+      <div class="flex items-center mt-7 mb-16">
+      <hr class="inline-block float-left h-2 bg-primary-col border-0 w-7 md:w-10 rounded transform rotate-90 z-10" />
+      <span class="text-2xl md:text-4xl">Let's talk about it</span>
+      </div>
+      <div class="contact-elements flex flex-wrap md:flex-nowrap">
+      <div class="contact-form w-full lg:w-1/2 mb-16 mt-5 order-1">
+        <form name="contact" method="POST" action="https://formsubmit.co/etowagideon@gmail.com" enctype="multipart/form-data">
+          
+          <input type="hidden" name="_next" value="http://127.0.0.1:5500/">
+          <input type="hidden" name="_subject" value="New submission!">
+          <div class="mb-4">
+          <label class="block opacity-80 mb-2" for="fname">Name</label>
+          <input name="name" class="w-full py-6 px-3 bg-input text-white rounded-xl focus:outline-none focus:ring-2 focus:ring-primary-col " type="text" id="fname">
+        </div>
+        <div class="mb-4">
+          <label class="block opacity-80 mb-2" for="femail">Email</label>
+          <input name="email" class="w-full py-6 px-3 bg-input text-white rounded-xl focus:outline-none focus:ring-2 focus:ring-primary-col " type="text" id="femail" required>
+        </div>
+        <div class="mb-4">
+          <label class="block opacity-80 mb-2" for="fmsg">Message</label>
+          <textarea name="message" class="w-full py-2 px-3 bg-input text-white rounded-xl focus:outline-none focus:ring-2 focus:ring-primary-col " name="fmsg" id="fmsg" cols="30" rows="10"></textarea>
+        </div>
+        <!-- <input class="block mb-7 bg-primary-col" type="file" name="attachment" accept="image/png, image/jpeg"> -->
+        <button class="px-3 py-4 mt-2 bg-primary-col rounded-xl" type="submit">Send message</button>
+        </form>
+      </div>
+      <div class="order-2 mb-16 lg:ml-40 mt-16 lg:mt-24 text-center">
+        <span>
+          Hey, hit me up on any of my socials and let's be friends
+        </span>
+        <div class="space-x-10 block md:space-x-5 text-primary-txt mt-10">
+          <a href="https://wa.me/2348143091020" target="_blank"><i class="fa fa-whatsapp"></a></i>
+          <a href="mailto:etowagideon@gmail.com" target="_blank"><i class="fas fa-envelope"></a></i>
+          <a href="https://www.dribbble.com/etowageed" target="_blank"><i class="fa fa-dribbble"></a></i>
+          <a href="https://www.linkedin.com/in/gideon-etowa-746b51156" target="_blank"><i class="fa fa-linkedin"></a></i>
+          <a href="https://www.twitter.com/etowageed" target="_blank"><i class="fa fa-twitter"></a></i>
+          <a href="https://www.github.com/etowageed" target="_blank"><i class="fa fa-github"></a></i>
+        </div>
+      </div>
     </div>
+  </div>
+    </div>
+    <footer class="text-center py-10"><span class="italic text-xs opacity-90">Designed and built with &#128156; by yours truly</span></footer>
   </body>
 </html>
