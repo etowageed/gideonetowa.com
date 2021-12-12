@@ -5,6 +5,13 @@ const mobLinks = document.querySelectorAll(".mobLinks");
 
 cta_menu.addEventListener("click", () => {
     mobile_nav.classList.toggle("hidden");
+
+    if (document.getElementById("cta-menu").className == "fa fa-bars fa-lg") {
+        document.getElementById("cta-menu").className = "fa fa-times fa-lg";
+    
+      } else {
+        document.getElementById("cta-menu").className = "fa fa-bars fa-lg";
+      }
 });
 
 // mobLinks.addEventListener("click", () => {
