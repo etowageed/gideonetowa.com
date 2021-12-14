@@ -1,6 +1,6 @@
 module.exports = {
-  purge: [],
-  darkMode: false, // or 'media' or 'class'
+  content: ['./public/**/*.html',
+            './public/**/*.js'],
   theme: {
     extend: {
       zIndex: {
