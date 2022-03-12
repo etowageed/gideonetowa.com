@@ -20,3 +20,6 @@ cta_menu.addEventListener("click", () => {
 function closeMenu() {
     mobile_nav.classList.toggle("hidden");
 };
+
+// gsap 
+
