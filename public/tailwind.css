@@ -538,6 +538,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 9rem;
 }
 
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
 .mt-14 {
   margin-top: 3.5rem;
 }
@@ -630,6 +635,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 100%;
 }
 
+.h-3\/6 {
+  height: 50%;
+}
+
+.h-6 {
+  height: 1.5rem;
+}
+
 .w-full {
   width: 100%;
 }
@@ -648,6 +661,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-5 {
   width: 1.25rem;
+}
+
+.w-6 {
+  width: 1.5rem;
 }
 
 .rotate-90 {
@@ -767,6 +784,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .p-2 {
   padding: 0.5rem;
+}
+
+.p-10 {
+  padding: 2.5rem;
 }
 
 .py-3 {
@@ -1019,6 +1040,10 @@ body {
     height: 22rem;
   }
 
+  .md\:h-12 {
+    height: 3rem;
+  }
+
   .md\:w-3\/4 {
     width: 75%;
   }
@@ -1029,6 +1054,10 @@ body {
 
   .md\:w-4\/6 {
     width: 66.666667%;
+  }
+
+  .md\:w-12 {
+    width: 3rem;
   }
 
   .md\:flex-row {
