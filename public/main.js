@@ -19,6 +19,12 @@ cta_menu.addEventListener("click", () => {
 // })
 function closeMenu() {
     mobile_nav.classList.toggle("hidden");
+    if (document.getElementById("cta-menu").className == "fa fa-times fa-lg") {
+      document.getElementById("cta-menu").className = "fa fa-bars fa-lg";
+  
+    } else {
+      document.getElementById("cta-menu").className = "fa fa-bars fa-lg";
+    }
 };
 
 // gsap 
