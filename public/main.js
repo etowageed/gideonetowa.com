@@ -1,6 +1,7 @@
 const cta_menu = document.getElementById("cta-menu");
 const mobile_nav = document.getElementById("mobile-nav");
 const mobLinks = document.querySelectorAll(".mobLinks");
+const preloader = document.getElementById("preloader")
 
 
 cta_menu.addEventListener("click", () => {
@@ -26,6 +27,10 @@ function closeMenu() {
       document.getElementById("cta-menu").className = "fa fa-bars fa-lg";
     }
 };
+
+window.addEventListener('load', function(){
+  preloader.style.display = "none"
+})
 
 // gsap 
 
