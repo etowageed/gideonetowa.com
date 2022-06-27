@@ -28,9 +28,11 @@ function closeMenu() {
     }
 };
 
-window.addEventListener('load', function(){
-  preloader.style.display = "none"
-})
+// Preloader code
+
+// window.addEventListener('load', function(){
+//   preloader.style.display = "none"
+// })
 
 // gsap 
 
