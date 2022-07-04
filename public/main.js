@@ -36,3 +36,21 @@ function closeMenu() {
 
 // gsap 
 
+gsap.registerPlugin(ScrollTrigger);
+
+gsap.from(".hero-writeup", {duration: 2, x: "100%", ease: "back.out"});
+
+gsap.from(".about-section", { scrollTrigger: {
+  trigger: ".about-section", 
+  toggleActions: "restart none none none", 
+}, duration: 2, y: "60%", ease: "back.out"});
+
+gsap.from(".work", { scrollTrigger: {
+  trigger: ".work", 
+  toggleActions: "restart none none none", 
+}, duration: 2, y: "20%", ease: "back.out"});
+
+gsap.from(".contact-div", { scrollTrigger: {
+  trigger: ".contact-div", 
+  toggleActions: "restart none none none", 
+}, duration: 2, y: "20%", ease: "back.out"});
