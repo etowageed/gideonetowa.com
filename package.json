@@ -4,8 +4,8 @@
   "description": "",
   "main": "tailwind.config.js",
   "scripts": {
-    "build": "npx tailwindcss -i ./src/index.css -o ./public/tailwind.css -w",
-    "prod": "npx tailwindcss -i ./src/index.css -o ./public/tailwind.css --minify"
+    "build": "npx tailwindcss -i ./src/index.css -o ./tailwind.css -w",
+    "prod": "npx tailwindcss -i ./src/index.css -o ./tailwind.css --minify"
   },
   "repository": {
     "type": "git",
